@@ -12,7 +12,7 @@ body {
   font-size: 22px;
 }
 
-.small-para {
+.para.small-para {
   font-size: 14px;
   font-weight: 800;
 }
@@ -22,7 +22,9 @@ body {
   color: rgb(0, 0, 0);
   font-size: 20px;
 
-}.confirm {
+}
+
+.button.confirm {
   background: green;
   color: white;
   font-weight: bold;
