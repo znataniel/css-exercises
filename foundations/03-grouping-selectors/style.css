@@ -1,0 +1,17 @@
+/* Esto le agrega los atributos a ambos de manera general */
+/* pero luego especifico a cada clase sola atributos especificos */
+
+.clickme,.nome{
+  font-size: 28px;
+  font-family: Helvetica, "Times New Roman", sans-serif;
+
+}
+
+.clickme {
+  color: white;
+  background-color: #000000;
+}
+
+.nome {
+  background-color: #ffff00f0;
+}
