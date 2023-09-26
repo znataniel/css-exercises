@@ -25,3 +25,57 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+/* Solving from here */
+
+.content{
+  margin: auto 0;
+  align-self: center;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+
+.header, .footer{
+  padding: 18px;
+  display: flex;
+  justify-content: space-between
+}
+
+.footer{
+  background-color: gainsboro;
+}
+
+.left-links, .right-links{
+  display:flex;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+}
+
+.left-links li, .right-links li{
+  list-style-type: none;
+}
+
+.left-links li a, .right-links li a{
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
+.footer .left-links li a, .footer .right-links li a{
+  text-decoration: none;
+  color: dimgray;
+}
+
+
+.buttons button{
+  padding: 8px 12px;
+}
