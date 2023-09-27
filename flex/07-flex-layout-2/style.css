@@ -5,6 +5,7 @@ body {
 
   display:flex;
   flex-direction: column;
+  justify-content: flex-end;
 }
 
 .header {
@@ -19,19 +20,34 @@ body {
   color: darkmagenta;
 }
 
+.content {
+  padding: auto;
+  flex: 1 1 auto;
+  display:flex;
+}
+
 .sidebar {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
+
+  flex-shrink: 0;
+}
+
+.card-wrapper {
+  display:flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  padding: 36px;
 }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+
+  flex-basis: 300px;
+  padding: 8px;
+  max-height: 380;
 }
 
-.content {
-  display:flex;
-
-}
