@@ -12,12 +12,22 @@ body {
   height: 72px;
   background: darkmagenta;
   color: white;
+
+  display: flex;
+  align-items: center;
+  font-size: 32px;
+  font-weight: 900;
+  padding: 0 12px;
 }
 
 .footer {
   height: 72px;
   background: #eee;
   color: darkmagenta;
+
+  display:flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .content {
@@ -32,7 +42,25 @@ body {
   box-sizing: border-box;
 
   flex-shrink: 0;
+  padding: 0 12px;
 }
+
+.sidebar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin: 16px 0;
+}
+.sidebar ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+}
+
 
 .card-wrapper {
   display:flex;
@@ -47,7 +75,7 @@ body {
   border-radius: 4px;
 
   flex-basis: 300px;
-  padding: 8px;
-  max-height: 380;
+  padding: 12px;
+  max-height: 380px;
 }
 
